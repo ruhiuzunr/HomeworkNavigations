@@ -25,6 +25,7 @@ public class sayfaB extends Fragment {
         binding.buttonGitY.setOnClickListener(view -> {
             Navigation.findNavController(view).navigate(R.id.sayfaYGecis);
             Log.e("Debug","Sayfa B'den X'e geçiş");
+            Log.e("Debug","Sayfa B'den X'e geçiş");
         });
 
 

@@ -24,9 +24,12 @@ public class sayfaB extends Fragment {
 
         binding.buttonGitY.setOnClickListener(view -> {
             Navigation.findNavController(view).navigate(R.id.sayfaYGecis);
-            Log.e("Debug","Sayfa B'den X'e geçiş");
-            Log.e("Debug","Sayfa B'den X'e geçiş");
         });
+        sayfaBArgs bundle = sayfaBArgs.fromBundle(getArguments());
+        String ad = bundle.getAd();
+        String soyad = bundle.getSoyad();
+        int yas = bundle.getYas();
+        Log.e("Debug",ad+" "+soyad+" "+String.valueOf(yas));
 
 
         return binding.getRoot();

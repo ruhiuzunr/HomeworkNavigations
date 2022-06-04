@@ -18,8 +18,13 @@ public class sayfaA extends Fragment {
                              Bundle savedInstanceState) {
         binding = FragmentSayfaABinding.inflate(inflater,container,false);
         binding.buttonGitB.setOnClickListener(view -> {
-            Navigation.findNavController(view).navigate(R.id.sayfaBGecis);
+            sayfaADirections.SayfaBGecis gecis = sayfaADirections.sayfaBGecis();
+            gecis.setAd("Ruhi");
+            gecis.setSoyad("UZUNER");
+            gecis.setYas(26);
+            Navigation.findNavController(view).navigate(gecis);
         });
+
 
         return binding.getRoot();
     }

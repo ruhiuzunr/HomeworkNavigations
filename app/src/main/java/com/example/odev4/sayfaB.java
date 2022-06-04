@@ -5,6 +5,7 @@ import android.os.Bundle;
 import androidx.fragment.app.Fragment;
 import androidx.navigation.Navigation;
 
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -23,6 +24,7 @@ public class sayfaB extends Fragment {
 
         binding.buttonGitY.setOnClickListener(view -> {
             Navigation.findNavController(view).navigate(R.id.sayfaYGecis);
+            Log.e("Debug","Sayfa B'den X'e geçiş");
         });
 
 

@@ -5,11 +5,15 @@
       <map>
         <entry key="..\:/odev4/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2095" />
         <entry key="..\:/odev4/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/odev4/app/src/main/res/layout/bottomkullanimi.xml" value="0.271875" />
         <entry key="..\:/odev4/app/src/main/res/layout/fragment_anasayfa.xml" value="0.35260416666666666" />
+        <entry key="..\:/odev4/app/src/main/res/layout/fragment_buttom1.xml" value="0.25" />
+        <entry key="..\:/odev4/app/src/main/res/layout/fragment_buttom2.xml" value="0.17395833333333333" />
         <entry key="..\:/odev4/app/src/main/res/layout/fragment_sayfa_a.xml" value="0.36666666666666664" />
         <entry key="..\:/odev4/app/src/main/res/layout/fragment_sayfa_b.xml" value="0.35260416666666666" />
         <entry key="..\:/odev4/app/src/main/res/layout/fragment_sayfa_x.xml" value="0.36666666666666664" />
         <entry key="..\:/odev4/app/src/main/res/layout/fragment_sayfa_y.xml" value="0.35260416666666666" />
+        <entry key="..\:/odev4/app/src/main/res/menu/menu_tasarim.xml" value="0.25" />
       </map>
     </option>
   </component>

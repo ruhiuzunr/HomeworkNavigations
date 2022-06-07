@@ -18,7 +18,9 @@ public class sayfaA extends Fragment {
                              Bundle savedInstanceState) {
         binding = FragmentSayfaABinding.inflate(inflater,container,false);
         binding.buttonGitB.setOnClickListener(view -> {
-            sayfaADirections.SayfaBGecis gecis = sayfaADirections.sayfaBGecis();
+            Kisiler gönderilecek_kisi = new Kisiler("Ruhi","Uzuner",26);
+
+            sayfaADirections.SayfaBGecis gecis = sayfaADirections.sayfaBGecis(gönderilecek_kisi);
             gecis.setAd("Ruhi");
             gecis.setSoyad("UZUNER");
             gecis.setYas(26);

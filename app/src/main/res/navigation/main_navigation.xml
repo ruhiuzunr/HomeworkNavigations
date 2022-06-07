@@ -38,6 +38,9 @@
             android:name="yas"
             app:argType="integer"
             android:defaultValue="0" />
+        <argument
+            android:name="kisi"
+            app:argType="com.example.odev4.Kisiler" />
     </fragment>
     <fragment
         android:id="@+id/sayfaX"

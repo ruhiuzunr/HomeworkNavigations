@@ -29,6 +29,9 @@ public class sayfaB extends Fragment {
         String ad = bundle.getAd();
         String soyad = bundle.getSoyad();
         int yas = bundle.getYas();
+
+        Kisiler gelen_kisi = bundle.getKisi();
+        binding.textViewKisi.setText(gelen_kisi.getIsim()+" "+gelen_kisi.getSoyad()+" "+String.valueOf(gelen_kisi.getYas()));
         Log.e("Debug",ad+" "+soyad+" "+String.valueOf(yas));
 
 
